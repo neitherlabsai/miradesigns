@@ -2,24 +2,22 @@
 <html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Mire Design | About</title>
-
+  <title>Mira Design | Collection</title>
   <link rel="stylesheet" href="style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-
   <header class="navbar">
-
     <div class="logo">
-      Mire Design
+      <img src="assets/images/mira.jpg" alt="Mira Design Logo">
+      <span>Mira Design</span>
     </div>
-
     <nav>
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
@@ -28,41 +26,181 @@
         <li><a href="/contact.html">Contact</a></li>
       </ul>
     </nav>
-
+    <div class="nav-icons">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-regular fa-user"></i>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-solid fa-bag-shopping"></i>
+    </div>
   </header>
 
-  <section class="page-banner">
-
-    <h1>About Mire Design</h1>
-
-  </section>
-
-  <section class="about-section">
-
-    <div class="about-container">
-
-      <div class="about-image">
-
-        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop">
-
+  <section class="collection-hero">
+    <div class="collection-overlay"></div>
+    <div class="collection-content">
+      <span class="collection-tag">Spring / Summer 2026</span>
+      <h1>Discover Timeless <br> Luxury Fashion</h1>
+      <p>Crafted with elegance, sustainability, and premium modern aesthetics for the new generation.</p>
+      <div class="collection-buttons">
+        <a href="#" class="collection-btn">Shop Collection</a>
+        <a href="#" class="collection-btn light-btn">Explore Lookbook</a>
       </div>
-
-      <div class="about-text">
-
-        <h2>Luxury Boutique Crafted With Passion</h2>
-
-        <p>
-          Mire Design blends elegance, luxury, and timeless fashion into a modern boutique experience.
-          Our collections are carefully curated to help women express confidence and sophistication.
-        </p>
-
-      </div>
-
     </div>
-
   </section>
+
+  <section class="shop-toolbar">
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search luxury products...">
+    </div>
+    <div class="toolbar-right">
+      <select>
+        <option>Sort By</option>
+        <option>Newest</option>
+        <option>Best Selling</option>
+        <option>Price Low To High</option>
+        <option>Price High To Low</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="featured-categories">
+    <div class="category-card">
+      <img src="assets/images/1.jpeg" alt="Women collection outfit">
+      <div class="category-content">
+        <span>Luxury</span>
+        <h2>Women Collection</h2>
+      </div>
+    </div>
+    <div class="category-card">
+      <img src="assets/images/2.jpeg" alt="Modern urban outfit">
+      <div class="category-content">
+        <span>Streetwear</span>
+        <h2>Modern Urban</h2>
+      </div>
+    </div>
+    <div class="category-card">
+      <img src="assets/images/3.jpeg" alt="Luxury essentials outfit">
+      <div class="category-content">
+        <span>Premium</span>
+        <h2>Luxury Essentials</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="trending-products">
+    <div class="section-title">
+      <span>Trending Now</span>
+      <h2>Best Sellers</h2>
+    </div>
+    <div class="trending-grid">
+      <div class="trend-card">
+        <div class="trend-image">
+          <img src="assets/images/4.jpeg" alt="Luxury beige coat">
+          <span class="sale-badge">New</span>
+        </div>
+        <div class="trend-content">
+          <h3>Luxury Beige Coat</h3>
+          <p>$120.00</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="trend-card">
+        <div class="trend-image">
+          <img src="assets/images/5.jpeg" alt="Elegant fashion look">
+          <span class="sale-badge">Sale</span>
+        </div>
+        <div class="trend-content">
+          <h3>Elegant Fashion</h3>
+          <p>$160.00</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="trend-card">
+        <div class="trend-image">
+          <img src="assets/images/6.jpeg" alt="Minimal luxury outfit">
+          <span class="sale-badge">Hot</span>
+        </div>
+        <div class="trend-content">
+          <h3>Minimal Luxury</h3>
+          <p>$190.00</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="luxury-banner">
+    <div class="banner-overlay"></div>
+    <div class="luxury-banner-content">
+      <span>Luxury Essentials</span>
+      <h2>Crafted For Modern <br> Elegance</h2>
+      <a href="#">Explore Collection</a>
+    </div>
+  </section>
+
+  <section class="lookbook-section">
+    <div class="section-title">
+      <span>Fashion Gallery</span>
+      <h2>Luxury Lookbook</h2>
+    </div>
+    <div class="lookbook-grid">
+      <img src="assets/images/7.jpeg" alt="Lookbook style one">
+      <img src="assets/images/8.jpeg" alt="Lookbook style two">
+      <img src="assets/images/9.jpeg" alt="Lookbook style three">
+      <img src="assets/images/1.jpeg" alt="Lookbook style four">
+    </div>
+  </section>
+
+  <section class="brand-story">
+    <div class="story-image">
+      <img src="assets/images/8.jpeg" alt="Mira Design brand story image">
+    </div>
+    <div class="story-content">
+      <span>Our Story</span>
+      <h2>Redefining Sustainable <br> Luxury Fashion</h2>
+      <p>Mira Design combines premium craftsmanship with modern luxury aesthetics, delivering timeless fashion collections designed for elegance and confidence.</p>
+      <a href="#">Learn More</a>
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="stat-box"><h2>15K+</h2><p>Happy Customers</p></div>
+    <div class="stat-box"><h2>120+</h2><p>Luxury Products</p></div>
+    <div class="stat-box"><h2>45+</h2><p>Countries Served</p></div>
+    <div class="stat-box"><h2>98%</h2><p>Positive Reviews</p></div>
+  </section>
+
+  <section class="instagram-feed">
+    <div class="section-title">
+      <span>Instagram</span>
+      <h2>@MiraDesign</h2>
+    </div>
+    <div class="instagram-grid">
+      <img src="assets/images/1.jpeg" alt="Instagram look one">
+      <img src="assets/images/2.jpeg" alt="Instagram look two">
+      <img src="assets/images/3.jpeg" alt="Instagram look three">
+      <img src="assets/images/4.jpeg" alt="Instagram look four">
+      <img src="assets/images/5.jpeg" alt="Instagram look five">
+      <img src="assets/images/6.jpeg" alt="Instagram look six">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-logo">Mira Design</div>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/collection.html">Collection</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+    <div class="footer-social">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
-
 </body>
+
 </html>
+
